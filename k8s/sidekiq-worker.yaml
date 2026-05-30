@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sidekiq-worker
+  namespace: kube-demo
+  labels:
+    app: sidekiq-worker
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sidekiq-worker
+  template:
+    metadata:
+      labels:
+        app: sidekiq-worker
+    spec:
+      containers:
+        - name: sidekiq-worker
+          image: kube-demo/rails-api:latest
+          imagePullPolicy: IfNotPresent
+          command: ["bundle", "exec", "sidekiq", "-C", "config/sidekiq.yml"]
+          env:
+            - name: RAILS_ENV
+              value: production
+            - name: SECRET_KEY_BASE
+              value: demo-secret-key-base-change-in-production
+            - name: REDIS_URL
+              value: redis://redis:6379/0
