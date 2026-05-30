@@ -1,0 +1,16 @@
+current directory: /Users/thaikhoa/khoa/training/kube/rails-api/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/thaikhoa/.rbenv/versions/3.1.4/bin/ruby -I /Users/thaikhoa/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/thaikhoa/khoa/training/kube/rails-api/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260530-31791-40zobj sitelibdir\=./.gem.20260530-31791-40zobj clean
+
+current directory: /Users/thaikhoa/khoa/training/kube/rails-api/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260530-31791-40zobj sitelibdir\=./.gem.20260530-31791-40zobj
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/thaikhoa/khoa/training/kube/rails-api/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260530-31791-40zobj sitelibdir\=./.gem.20260530-31791-40zobj install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20260530-31791-40zobj/racc

@@ -1,0 +1,16 @@
+current directory: /Users/thaikhoa/khoa/training/kube/rails-api/vendor/bundle/ruby/3.1.0/gems/cgi-0.5.1/ext/cgi/escape
+/Users/thaikhoa/.rbenv/versions/3.1.4/bin/ruby -I /Users/thaikhoa/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/thaikhoa/khoa/training/kube/rails-api/vendor/bundle/ruby/3.1.0/gems/cgi-0.5.1/ext/cgi/escape
+make DESTDIR\= sitearchdir\=./.gem.20260530-31791-i1dl3a sitelibdir\=./.gem.20260530-31791-i1dl3a clean
+
+current directory: /Users/thaikhoa/khoa/training/kube/rails-api/vendor/bundle/ruby/3.1.0/gems/cgi-0.5.1/ext/cgi/escape
+make DESTDIR\= sitearchdir\=./.gem.20260530-31791-i1dl3a sitelibdir\=./.gem.20260530-31791-i1dl3a
+compiling escape.c
+linking shared-object cgi/escape.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/thaikhoa/khoa/training/kube/rails-api/vendor/bundle/ruby/3.1.0/gems/cgi-0.5.1/ext/cgi/escape
+make DESTDIR\= sitearchdir\=./.gem.20260530-31791-i1dl3a sitelibdir\=./.gem.20260530-31791-i1dl3a install
+/usr/bin/install -c -m 0755 escape.bundle ./.gem.20260530-31791-i1dl3a/cgi

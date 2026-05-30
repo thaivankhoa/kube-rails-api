@@ -1,0 +1,16 @@
+current directory: /Users/thaikhoa/khoa/training/kube/rails-api/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+/Users/thaikhoa/.rbenv/versions/3.1.4/bin/ruby -I /Users/thaikhoa/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/thaikhoa/khoa/training/kube/rails-api/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260530-31791-g4g1vr sitelibdir\=./.gem.20260530-31791-g4g1vr clean
+
+current directory: /Users/thaikhoa/khoa/training/kube/rails-api/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260530-31791-g4g1vr sitelibdir\=./.gem.20260530-31791-g4g1vr
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/thaikhoa/khoa/training/kube/rails-api/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260530-31791-g4g1vr sitelibdir\=./.gem.20260530-31791-g4g1vr install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20260530-31791-g4g1vr
